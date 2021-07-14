@@ -23,4 +23,15 @@
     grid-column: 1 / 4;
     margin-top: 3em;
     text-align: end;
+    background-image: url(Img/undraw_Segment_analysis_re_ocsl.svg);
+    background-repeat: no-repeat;
+    background-size: 50em 20em;
+}
+
+.section {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 0.5em;
 }
