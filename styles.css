@@ -21,4 +21,6 @@
 
 .hero {
     grid-column: 1 / 4;
+    margin-top: 3em;
+    text-align: end;
 }
