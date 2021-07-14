@@ -1,5 +1,24 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 4.5fr 4.5fr 0.5fr;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.nav {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1 / 4;
+    border-bottom: 1px solid #000;
+}
+
+.hero {
+    grid-column: 1 / 4;
 }
